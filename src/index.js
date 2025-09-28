@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { unregister } from './serviceWorker';
 import ContextProvider from './components/Context';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

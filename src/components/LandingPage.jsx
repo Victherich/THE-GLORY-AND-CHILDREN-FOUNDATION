@@ -12,6 +12,8 @@ import AboutUsBrief from './AboutUsBriefComponent'
 import { useEffect , useState} from 'react'
 import { useLocation } from 'react-router-dom'
 import Events from './Events'
+import PartnersSection from './PartnersSection'
+import InstitutionHighlight from './InstitutionHighlight'
 
 const LandingPage = () => {
   const location = useLocation();
@@ -52,6 +54,8 @@ const LandingPage = () => {
       
       <Hero2/>
       <Testimonials/>
+      <PartnersSection/>
+      <InstitutionHighlight/>
       {/* <News/> */}
       {/* <FAQ/> */}
     </div>

@@ -50,20 +50,21 @@ const HeaderWrap = styled.header`
 `;
 
 const Logo = styled.img`
-  width: 200px;
-  // height: 60px;    
+  width: 180px;
+  height: 70px;    
   // border-radius:50%;
   // animation: ${rotateAnimation} 10s linear infinite; /* 2s duration, infinite loop */
   cursor:pointer;
 
 @media(max-width:768px){
     width:200px;
+    // height:auto;
 }
 `;
 
 const Logo2 = styled.img`
-  width: 200px;
-  // height: 60px;
+  width: 180px;
+  height: 70px;
 //  border-radius:50%;
 cursor:pointer;
 

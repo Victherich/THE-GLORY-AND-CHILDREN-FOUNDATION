@@ -431,7 +431,22 @@ import im11 from '../Images2/im11.jpeg';
 import im12 from '../Images2/im12.jpeg';
 import im13 from '../Images2/im13.jpeg';
 import im14 from '../Images2/im14.jpeg';
+import im15 from '../Images2/im15.jpeg';
+import im16 from '../Images2/im16.jpeg';
+import im17 from '../Images2/im17.jpeg';
+import im18 from '../Images2/im18.jpeg';
+import im19 from '../Images2/im19.jpeg';
+import im20 from '../Images2/im20.jpeg';
+import im21 from '../Images2/im21.jpeg';
+import im22 from '../Images2/im22.jpeg';
+import im23 from '../Images2/im23.jpeg';
+import im24 from '../Images2/im24.jpeg';
+import im25 from '../Images2/im25.jpeg';
+import im26 from '../Images2/im26.jpeg';
+import im27 from '../Images2/im27.jpeg';
+// import im28 from '../Images2/im28.jpeg';
 import Hero4 from "./Hero4";
+import VideoGallery from "./VideoGallery";
 
 // Floating Animation
 const floating = keyframes`
@@ -451,7 +466,7 @@ const GalleryWrapper = styled.div`
   position: relative;
 //   background: linear-gradient(135deg, #ece9e6, #ffffff);
 background:rgba(0,0,255,0.1);
-  padding: 80px 20px;
+  padding: 50px 0px;
   text-align: center;
   overflow: hidden;
 
@@ -626,6 +641,23 @@ const images = [
   { src: im12, columnSpan: "span 1", rowSpan: "span 1", border: "15px", border2:"1px" },
   { src: im13, columnSpan: "span 2", rowSpan: "span 2", border: "20px", border2:"1px" },
   { src: im14, columnSpan: "span 2", rowSpan: "span 2", border: "25px", border2:"1px" },
+
+    { src: im15, columnSpan: "span 2", rowSpan: "span 1", border: "20px", border2: "1px" },
+  { src: im16, columnSpan: "span 1", rowSpan: "span 2", border: "30px", border2:"1px" },
+  { src: im17, columnSpan: "span 1", rowSpan: "span 1", border: "10px", border2:"1px" },
+  { src: im18, columnSpan: "span 1", rowSpan: "span 1", border: "15px", border2:"1px" },
+  { src: im19, columnSpan: "span 2", rowSpan: "span 2", border: "20px", border2:"1px" },
+  { src: im20, columnSpan: "span 2", rowSpan: "span 2", border: "25px", border2:"1px" },
+
+      { src: im21, columnSpan: "span 2", rowSpan: "span 1", border: "20px", border2: "1px" },
+  { src: im22, columnSpan: "span 1", rowSpan: "span 2", border: "30px", border2:"1px" },
+  { src: im23, columnSpan: "span 1", rowSpan: "span 1", border: "10px", border2:"1px" },
+  { src: im24, columnSpan: "span 1", rowSpan: "span 1", border: "15px", border2:"1px" },
+  { src: im25, columnSpan: "span 2", rowSpan: "span 2", border: "20px", border2:"1px" },
+  { src: im26, columnSpan: "span 2", rowSpan: "span 2", border: "25px", border2:"1px" },
+
+        { src: im27, columnSpan: "span 2", rowSpan: "span 1", border: "20px", border2: "1px" },
+
 ];
 
 const Gallery = () => {
@@ -638,6 +670,7 @@ const Gallery = () => {
   return (
     <GalleryWrapper>
         <Hero4/>
+        <VideoGallery/>
       {/* Floating Artistic Elements */}
       <FloatingShape top="5%" left="5%" size="180px" bgColor="rgba(255, 0, 0, 0.4)" circle />
       <FloatingShape top="80%" left="80%" size="200px" bgColor="rgba(0, 255, 255, 0.3)" />

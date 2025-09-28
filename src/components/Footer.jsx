@@ -123,7 +123,7 @@ const Footer = () => {
 
       {/* Footer Links */}
       <FooterLinks>
-      <a href="/">Home</a>
+        <a href="/">Home</a>
         <a href="/aboutus">About Us</a>
         <a href="/gallery">Gallery</a>
         <a href="/donate">Donate</a>

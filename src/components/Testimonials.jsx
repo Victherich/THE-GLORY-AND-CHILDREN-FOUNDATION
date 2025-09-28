@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import im1 from '../Images2/logo.jpeg';
-import im2 from '../Images2/logo.jpeg';
-import im3 from '../Images2/logo.jpeg';
-import im4 from '../Images2/logo.jpeg';
+import im1 from '../Images2/P1.jpeg';
+import im2 from '../Images2/P2.jpeg';
+import im3 from '../Images2/P3.jpeg';
+import im4 from '../Images2/P4.jpeg';
+
 
 // Styled Components
 const CarouselSection = styled.section`
@@ -119,28 +120,28 @@ const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const testimonials = [
     {
-      name: "Mary Nnedi",
-      role: "Beneficiary",
+      name: "Stanley Nshing",
+      role: "Partner",
       feedback:
         "Thanks to this foundation, I was able to continue my education. Their scholarship program has truly changed my life.",
       image: im1,
     },
     {
-      name: "Chinwe Nancy",
+      name: "Gift Robinson",
       role: "Volunteer",
       feedback:
         "Volunteering with this foundation has been the most rewarding experience of my life. The smiles we create are priceless.",
       image: im2,
     },
     {
-      name: "Sarah Leonard",
+      name: "Nicholas Christiana Opeyemi",
       role: "Donor",
       feedback:
         "I am proud to support this incredible organization. They are truly making a difference where it's needed most.",
       image: im3,
     },
     {
-      name: "David Kim",
+      name: "Abdulmuminu Oyameda Ani",
       role: "Partner",
       feedback:
         "Partnering with this foundation has been a fantastic journey. Their commitment to social impact is second to none.",

@@ -104,6 +104,13 @@ const Footer = () => {
         brighter future for women and children through education, healthcare, and
         support.
       </FooterText>
+      <FooterText>
+        <span>Email:</span> robinsonglory5@gmail.com
+      </FooterText>
+
+      <FooterText>
+        <span>Phone:</span> +234 705 335 9779
+      </FooterText>
 
       {/* Social Media Links */}
       <SocialLinks>

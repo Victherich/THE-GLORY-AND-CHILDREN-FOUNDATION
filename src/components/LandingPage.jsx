@@ -44,8 +44,7 @@ const LandingPage = () => {
     reRender&&<div>
       <Hero/>
       <AboutUsBrief/>
-    
-          
+
       {/* <AboutComponent/> */}
       <Impact/>
       <Events/>

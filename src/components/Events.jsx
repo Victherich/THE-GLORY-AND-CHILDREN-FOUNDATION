@@ -36,17 +36,20 @@ const MediaGrid = styled.div`
 `;
 
 const VideoWrapper = styled.div`
-//   width: 300px;
+  width: 300px;
   position: relative;
+  height:350px;
   
 `;
 
 const StyledVideo = styled.video`
   width: 100%;
-  height:476px;
+  height:100%;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  object-fit:cover;
+  object-position:top;
 `;
 
 const ImageWrapper = styled.div`

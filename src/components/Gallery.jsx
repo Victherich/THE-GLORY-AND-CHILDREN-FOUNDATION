@@ -447,6 +447,7 @@ import im27 from '../Images2/im27.jpeg';
 // import im28 from '../Images2/im28.jpeg';
 import Hero4 from "./Hero4";
 import VideoGallery from "./VideoGallery";
+import VideoGallery2 from "./VideoGallery2";
 
 // Floating Animation
 const floating = keyframes`
@@ -670,7 +671,7 @@ const Gallery = () => {
   return (
     <GalleryWrapper>
         <Hero4/>
-        <VideoGallery/>
+        <VideoGallery2/>
       {/* Floating Artistic Elements */}
       <FloatingShape top="5%" left="5%" size="180px" bgColor="rgba(255, 0, 0, 0.4)" circle />
       <FloatingShape top="80%" left="80%" size="200px" bgColor="rgba(0, 255, 255, 0.3)" />

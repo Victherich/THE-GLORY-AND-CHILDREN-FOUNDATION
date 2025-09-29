@@ -123,7 +123,7 @@ const Testimonials = () => {
       name: "Stanley Nshing",
       role: "Partner",
       feedback:
-        "Thanks to this foundation, I was able to continue my education. Their scholarship program has truly changed my life.",
+        "Thanks to this foundation for giing me the opportunity to transform lies through my partnership with them.",
       image: im1,
     },
     {

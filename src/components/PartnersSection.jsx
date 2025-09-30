@@ -56,7 +56,6 @@ const Card = styled.div`
 const partners = [
   "Mr Dele Nicholas",
   "Segun Tosin Nicholas",
-  "Glory Foundation Trust",
   "Esther Robinson Ebholo",
   "Esther Esom",
   "Victor Ndu",

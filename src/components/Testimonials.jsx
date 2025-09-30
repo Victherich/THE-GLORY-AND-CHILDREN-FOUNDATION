@@ -4,6 +4,7 @@ import im1 from '../Images2/P1.jpeg';
 import im2 from '../Images2/P2.jpeg';
 import im3 from '../Images2/P3.jpeg';
 import im4 from '../Images2/P4.jpeg';
+import im5 from '../Images2/P5.jpeg'
 
 
 // Styled Components
@@ -75,7 +76,7 @@ const ProfileImage = styled.img`
 `;
 
 const Name = styled.h3`
-  font-size: 20px;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #1e3a8a;
   margin-bottom: 5px;
@@ -88,9 +89,9 @@ const Role = styled.p`
 `;
 
 const Feedback = styled.p`
-  font-size: 16px;
+  font-size: 0.8rem;
   color: #4b5563;
-  line-height: 1.5;
+  // line-height: 1.5;
 `;
 
 const ArrowButton = styled.button`
@@ -123,7 +124,7 @@ const Testimonials = () => {
       name: "Stanley Nshing",
       role: "Partner",
       feedback:
-        "Thanks to this foundation for giing me the opportunity to transform lies through my partnership with them.",
+        "Thanks to this foundation for giving me the opportunity to transform lives through my partnership with them.",
       image: im1,
     },
     {
@@ -141,11 +142,18 @@ const Testimonials = () => {
       image: im3,
     },
     {
-      name: "Abdulmuminu Oyameda Ani",
+      name: "Segun Tosin Nicholas",
       role: "Partner",
       feedback:
         "Partnering with this foundation has been a fantastic journey. Their commitment to social impact is second to none.",
       image: im4,
+    },
+      {
+      name: "Abdulmuminu Oyameda Ani",
+      role: "Partner",
+      feedback:
+        "Working alongside this foundation has been truly rewarding. Their passion for creating lasting change inspires everyone around them.",
+      image: im5,
     },
   ];
 
@@ -160,9 +168,9 @@ const Testimonials = () => {
   return (
     <CarouselSection id="testimonials">
       <Title>What Our Community Says 🗣️</Title>
-      <Subtitle>
+      {/* <Subtitle>
         Hear from those whose lives have been touched by our work. Their stories inspire us every day.
-      </Subtitle>
+      </Subtitle> */}
 
       <CarouselWrapper>
         <CarouselTrack
